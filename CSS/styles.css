@@ -48,3 +48,9 @@ a.active.a:hover{
 h1{
     text-align: center;
 }
+#menu{
+    background-image: url("https://www.textures.com/system/gallery/photos/Wood/Plywood/Painted/4882/PlywoodPainted0011_1_download600.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 25%;
+}
