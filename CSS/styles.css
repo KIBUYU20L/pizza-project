@@ -1,56 +1,89 @@
-*{
-    padding: 0%;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
+* {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
-body{
-    font-family: montserrat;
 
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: #ffffff;
 }
-/* nav{
-    background: #0082e6;
-    height: 80px;
-    width: 100px;
 
-} */
-label.logo{
-    color: white;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
-
+#spantext {
+    color: yellow;
 }
-nav ul{
+
+.navi {
     float: right;
+}
+
+.exc {
+    color: yellow;
+}
+
+#piz-pap {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 35px;
+    font-weight: normal;
+    color: darkorange;
+}
+
+li {
+    display: inline;
     margin-right: 20px;
-
 }
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
-nav ul li a{
-    color:black;
-    font-size: 17px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-}
-a.active.a:hover{
-    background: #1b9bff;
-    transition: .5s;
-
-}
-h1{
-    text-align: center;
-}
-#menu{
+/* #menu{
     background-image: url("https://www.textures.com/system/gallery/photos/Wood/Plywood/Painted/4882/PlywoodPainted0011_1_download600.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 25%;
+} */
+.h-buttons {
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.h-buttons button {
+    border-radius: 40px;
+    color: black;
+}
+
+.menu-btn {
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #000;
+}
+
+figcaption {
+    font-family: 'Oswald', serif;
+}
+
+#menu {
+    padding-top: 20px;
+}
+#order-pizza {
+    color: #000;
+}
+
+#list li {
+    font-size: 24px;
+    font-family: system-ui, serif;
+}
+
+.order-summary h1, .summary, .contact {
+    color: #000;
+    font-family: 'Love Ya Like A Sister', cursive;
+    margin-top: 30px;
+}
+
+.contacts {
+    background-image: url("../images/sec/b1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-overlay {
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.7);
 }
