@@ -15,14 +15,14 @@ body {
 }
 
 .navi {
-    float: right;
+    float: left;
 }
 
 .exc {
     color: yellow;
 }
 
-#piz-pap {
+#piz {
     font-family: 'Shadows Into Light', cursive;
     font-size: 35px;
     font-weight: normal;
@@ -78,7 +78,7 @@ figcaption {
 }
 
 .contacts {
-    background-image: url("../images/sec/b1.jpg");
+    background-image: url("");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -208,5 +208,10 @@ h4 {
 
 .landing-text {
     margin-top: 10%;
+}
+a {
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
 }
 

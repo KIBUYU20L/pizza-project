@@ -21,10 +21,10 @@
 
 ## Languages used
 
-*HTML
-*CSS
-*BOOTSTRAP
-*JS
+* HTML
+* CSS
+* BOOTSTRAP
+* JS
 
 ## contact information
 
