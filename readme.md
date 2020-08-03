@@ -1,6 +1,6 @@
 ## project name
 
-* pepinos
+* peppinos
 
 ## Auther's name
 

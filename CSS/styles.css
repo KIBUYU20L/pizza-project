@@ -78,9 +78,11 @@ figcaption {
 }
 
 .contacts {
-    background-image: url("");
+    padding-top: 20px;
+    background-image: url("https://www.pizzaguys.com/v/assets/images/home/hot-deals@2x.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
 }
 
 .contact-overlay {
@@ -103,10 +105,6 @@ input[type="email"] {
 
 .get-pizza {
     margin-top: 40px;
-}
-
-.contact {
-    padding-top: 20px;
 }
 
 .cdata {
@@ -214,4 +212,6 @@ a {
     font-size: 18px;
     font-weight: normal;
 }
-
+.subscribe{
+    background-color: cornflowerblue;
+}
