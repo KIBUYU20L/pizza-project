@@ -189,3 +189,24 @@ h4 {
     width: inherit;
     background-color: rgba(0, 0, 0, 0.7);
 }
+/*Background pic*/
+.landing {
+    background-image: url("https://brenzpizzaco.com/images/award-winning-pizza-catering-sq-c.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+
+#push {
+    padding-top: 10%;
+}
+
+.landing-text {
+    margin-top: 10%;
+}
+
